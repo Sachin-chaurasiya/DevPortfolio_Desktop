@@ -1,6 +1,6 @@
 module.exports = {
   packagerConfig: {
-    icon: 'Images/Dark-logo',
+    icon: './Images/Dark-logo',
   },
   rebuildConfig: {},
   makers: [
@@ -16,7 +16,7 @@ module.exports = {
       name: '@electron-forge/maker-deb',
       config: {
         options: {
-          icon: 'Images/Dark-logo.png',
+          icon: './Images/Dark-logo.png',
         },
       },
     },

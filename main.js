@@ -8,7 +8,7 @@ const createWindow = () => {
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
     },
-    icon: 'Images/Dark-logo.png',
+    icon: './Images/Dark-logo.png',
   });
 
   ipcMain.handle('ping', () => 'pong');
